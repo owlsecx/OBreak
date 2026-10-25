@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Authorised HTTP login-form credential testing.
+OBreak is an HTTP login-form credential tester for authorised authentication testing. It supports GET, POST and JSON logins with failure and success detection, response-length deviation analysis, redirect tracking and CSRF token refresh. Robustness features include retry with backoff, user-agent rotation, proxy support and WAF/lockout watching, with reports exported to HTML, JSON or TXT.
 
 ---
 
 ## ✨ Features
 
-- OBreak v1.1.0 — authorised HTTP login-form credential testing
+- GET / POST / JSON login testing with success and failure detection
+- Response-length deviation analysis and redirect tracking
+- CSRF token refresh and automatic login-form analysis
+- Retry with backoff, user-agent rotation and WAF/lockout detection
+- Proxy support, cookie injection and profile save/load
+- HTML / JSON / TXT report export with ETA and speed display
 
 ---
 
@@ -39,6 +44,7 @@ Authorised HTTP login-form credential testing.
 
 ```bash
 ./OBreak
+./OBreak --help
 ```
 
 ---
